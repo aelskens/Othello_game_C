@@ -29,7 +29,7 @@ class Map
 		Player* opponant;
 		int size_of_board = 8;
 		bool check = false;
-		bool end;
+		bool end = false;
 		string lastpos = "z1";
 	    View1 view;
 	 public:
