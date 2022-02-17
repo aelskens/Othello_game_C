@@ -36,6 +36,7 @@ Make sure you have a C++ IDE that supports CMake.
    ```sh
    ./main
    ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Usage
 
@@ -54,7 +55,9 @@ As there is no suitable user interface for this project yet, the game is played 
 Using any mode except ai mode, the user can type special commands:
 * *help* this will display all the legal moves that the player can play
 * *00* this allows the player to skip his turn
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Documentation
 
 For the AI implementation, the algorithmic choice was a branch-and-bound method, specifically an [alpha-beta pruning algorithm](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). The AI player evaluates all board states 5 turns later in the game. As a result, the number of computations is quickly non-negligible and this can lead to a maximum delay of 20s for the AI to make its move.
+<p align="right">(<a href="#top">back to top</a>)</p>
