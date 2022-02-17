@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://www.ultraboardgames.com/img/slideshow/othello.jpg" />
+</p>
+     
+
 # Othello Game in C++
 
 Here is a C++ implementation of the well-known board game Othello. In this game, two players compete against each other in order to have at the end the larger number of tiles on the board. 
@@ -60,4 +65,10 @@ Using any mode except ai mode, the user can type special commands:
 ## Documentation
 
 For the AI implementation, the algorithmic choice was a branch-and-bound method, specifically an [alpha-beta pruning algorithm](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning). The AI player evaluates all board states 5 turns later in the game. As a result, the number of computations is quickly non-negligible and this can lead to a maximum delay of 20s for the AI to make its move.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## References
+* [Image](https://www.ultraboardgames.com/img/slideshow/othello.jpg)
+* Russell, S. J. and Norvig, P. (2009). *Artificial Intelligence: A Modern Approach*. Prentice Hall, Third Edition. p.161-175.
+* Sannidhanam, V. and Annamalai, M. (2015). *An Analysis of Heuristics in Othello*. Washington University, Department of Computer Science and Engineering.
 <p align="right">(<a href="#top">back to top</a>)</p>
