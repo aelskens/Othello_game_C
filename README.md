@@ -1,14 +1,21 @@
-<p align="center">
-  <img src="https://www.ultraboardgames.com/img/slideshow/othello.jpg" />
-</p>
+<br />
+<div align="center">
+  <a href="https://github.com/aelskens/Othello_game_C">
+    <img src="https://www.ultraboardgames.com/img/slideshow/othello.jpg" alt="Logo" width="140" height="80">
+  </a>
 
-# Othello Game in C++
+  <h3 align="center">Othello Game in C++</h3>
+
+  <p align="center">
+    Here is a C++ implementation of the well-known board game Othello. In this game, two players compete against each other in order to have at the end the           larger number of tiles on the board.
+    <br />
+    <br />
+  </p>
+</div>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74192786/154754746-819c107c-7207-4c7c-97d7-1a4e1f2487bb.gif" />
 </p>
-
-Here is a C++ implementation of the well-known board game Othello. In this game, two players compete against each other in order to have at the end the larger number of tiles on the board. 
 
 For more information about the rules of this game, for example the set of allowed moves, please refer to [Othello's official rules](https://www.worldothello.org/about/about-othello/othello-rules/official-rules/english).
 
